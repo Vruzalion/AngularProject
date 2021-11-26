@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card-header">
+    <h1>Calculatrice</h1>
+  </div>
+  <div class="card-body">
+    <div class="form-group">
+      <label>TAPER A:</label>
+      <input [(ngModel)]= "a" type="number" name="a" id="" class="form-control" placeholder="" aria-describedby="helpId">
+      <small id="helpId" class="text-muted">Entrez une premiere valeur</small>
+    </div>
+    <div class="form-group">
+      <label>TAPER B:</label>
+      <input [(ngModel)]= "b" type="number" name="b" id="" class="form-control" placeholder="" aria-describedby="helpId">
+      <small id="helpId" class="text-muted">Entrez une deuxieme valeur</small>
+    </div>
+    <div class="form-group">
+      <label class="reponse">Le resultat est : {{ c }}</label>
+    </div>
+    <div class="form-group">
+     <button class="btn btn-outline-dark" (click)="add()">+</button>
+    <button class="btn btn-outline-danger" (click)="sub()">-</button>
+    <button class="btn btn-outline-warning" (click)="mul()">*</button>
+    <button class="btn btn-outline-success" (click)="div()">/</button>
+    </div>
+  </div>
+</div>
+<footer>
+  <i class="fas fa-copyright">Par NYONGO Ghislain</i>
+</footer>
