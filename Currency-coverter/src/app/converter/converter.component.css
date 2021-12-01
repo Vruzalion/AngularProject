@@ -1,0 +1,22 @@
+:host{
+  text-align: center;
+}
+
+b{
+  font-size: 26px;
+}
+
+input, select {
+  margin:0;
+  text-align: center;
+ -webkit-text-fill-color: black;
+	animation: gradient 15s ease infinite;
+  border: none;
+  border-radius: 50px;
+  ;
+}
+
+div{
+-webkit-text-fill-color: aliceblue;
+}
+
